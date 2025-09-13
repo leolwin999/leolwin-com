@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://leolwin.com/",
+  author: "Leo Lwin",
+  profile: "",
+  desc: "A seafarer's journey into self-taught tech :)",
+  title: "Leo Lwin",
+  ogImage: "og-leolwin.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 4,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true, 
+  editPost: {
+    enabled: true,
+    text: "Spotted a Mistake?",
+    url: "https://github.com/leolwin999/leolwin-site/edit/main/",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "en",
+  timezone: "Asia/Yangon",
+} as const;
