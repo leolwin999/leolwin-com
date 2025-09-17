@@ -1,7 +1,7 @@
 ---
 title: What the heap? (Part 2)
 author: Leo Lwin
-pubDatetime: 2025-08-19T16:35:04.625Z
+pubDatetime: 2025-09-17T15:54:58.175Z
 slug: what-the-heap-part-2
 featured: false
 draft: false
