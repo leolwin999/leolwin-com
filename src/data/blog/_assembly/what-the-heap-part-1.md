@@ -222,4 +222,4 @@ Used for dynamic memory allocation. This is a large pool of memory available to 
 The heap isn’t just “a place for dynamic memory.”  
 It’s a complex memory arena, full of logic, structures, and potential mistakes. And it's waiting for you to understand or exploit it.  
   
-We’re just getting started. See you in Part 2.
+We’re just getting started. See you in [Part 2](https://leolwin.com/posts/what-the-heap-part-2).

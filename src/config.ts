@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Spotted a Mistake?",
-    url: "https://github.com/leolwin999/leolwin-site/edit/main/",
+    url: "https://github.com/leolwin999/leolwin-com/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr",
