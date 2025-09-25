@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2025-08-31T05:04:26.400Z
+modDatetime: 2025-09-25T16:08:27.294Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -58,7 +58,8 @@ Happy  coding!
 |[Below Or Above](#below-or-above)             | Checking a specific number      |
 |[Addition](#addition)                         | Adding two numbers              |
 |[Input Output](#input-output)                 | Read the text and write out     |
-|[Password Checker](#password-checker)         | Checking user's input password  | 
+|[Password Checker](#password-checker)         | Checking user's input password  |
+|[Prime Checker](#prime-checker)               | Checking if prime number or not |
 |[Bit Shifter](#bit-shifter)                   | Shifting each bit to left       |
 |[Read File](#read-file)                       | Read the text file              |
 |[Write File](#write-file)                     | Write to the text file          |
@@ -126,6 +127,17 @@ Skills you'll gain:
 - Implementing conditional branches based on comparison results
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/password_checker.asm)
+
+## Prime Checker
+A program that asks the user for a number and determines whether it’s prime or not. Instead of relying on shortcuts, it manually calculates the number to check for factors. Straightforward but powerful for learning loops and conditional jumps in assembly.  
+Skills you'll gain:  
+- Handling user input and converting it into integers
+- Implementing division in assembly (div)
+- Looping through potential factors
+- Using conditional jumps for decision-making
+- Applying mathematical logic at the register level
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/prime_checker.asm)
 
 ## Bit Shifter
 This program takes a message and shifts its bits left by one position using the `rol` (rotate left) instruction. It’s a neat way to see how data can be transformed at the bit level, something that’s super common in cryptography, data encoding, and low-level optimization.  
