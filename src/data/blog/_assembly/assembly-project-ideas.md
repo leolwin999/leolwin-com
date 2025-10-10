@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2025-09-25T16:08:27.294Z
+modDatetime: 2025-10-10T16:02:39.620Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -41,16 +41,18 @@ That's exactly what assembly language lets you do. It gives you low-level access
   
 If you’re curious about how computers really work or if you simply enjoy getting some hands-on with bare-metal programming, then these assembly projects are a great place to start.  
   
-I'll be posting projects here, sorted from beginner-friendly to more advanced ones. Feel free to explore whatever  you find  interesting.
+I'll be posting projects here, sorted from beginner-friendly to more advanced ones. Feel free to explore whatever you find interesting.
   
 You can also check out the whole project in my [repo](https://github.com/leolwin999/Assembly-Projects).
   
-Happy  coding!
+Happy coding!
 
 > These projects are work in progress. I regularly update contents and add new material, so don’t forget to check back!
 
 ## Overview
 
+
+Easy Categories
 
 |Project Title                                 | Short Description               |
 |----------------------------------------------|---------------------------------|
@@ -64,9 +66,15 @@ Happy  coding!
 |[Read File](#read-file)                       | Read the text file              |
 |[Write File](#write-file)                     | Write to the text file          |
 |[Delete File](#delete-file)                   | Delete the text file            |
+|[Clone File](#clone-file)                     | Clone the text file             |
 |[Reverse String](#reverse-string)             | gnirts a esreveR                |
 |[Random](#random)                             | Generate random number (0 - 100)|
 |[Timer](#timer)                               | Simple countdown timer          |
+
+Advance Categories
+
+|Project Title                                 | Short Description               |
+|----------------------------------------------|---------------------------------|
 |[Server](#server)                             | Basic TCP server                |
 |[Client](#client)                             | Basic TCP client                |
 |[Web Scraper](#web-scraper)                   | Simple Web Scraper              |
@@ -173,7 +181,7 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/write_file.asm)
 
 ## Delete File
-This program deletes a `.txt` file. It deletes a file using the unlink() system call. This program works by removing the file’s link to its inode.  
+This program deletes a `.txt` file. It deletes a file using the unlink() system call and removing the file’s link to its inode.  
 Skills you'll gain:  
 - Using the sys_unlink system call to remove files
 - Understanding inodes and how file paths map to them
@@ -182,6 +190,17 @@ Skills you'll gain:
 - Error handling when deleting non-existent or protected files
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/delete_file.asm)
+
+## Clone File
+This program clones a text file, reading its contents and writing them into a new file. A low-level version of “copy & paste,” where you have to handle every byte yourself.  
+Skills you'll gain:
+- Reading files using sys_open and sys_read
+- Creating and writing to new files with sys_write
+- Managing file descriptors properly
+- Handling buffers and transferring data between files
+- Understanding how Linux performs file I/O at the syscall level
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/file_cloner.asm)
 
 ## Reverse String
 Enter a string and watch it reversed like magic. This teaches how to navigate and manipulate memory, one byte at a time.  
