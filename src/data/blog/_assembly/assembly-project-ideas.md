@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2025-10-10T16:02:39.620Z
+modDatetime: 2025-10-12T05:42:55.593Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -78,16 +78,16 @@ Advance Categories
 |[Server](#server)                             | Basic TCP server                |
 |[Client](#client)                             | Basic TCP client                |
 |[Web Scraper](#web-scraper)                   | Simple Web Scraper              |
-
+|[HTTP Server](#http-server)                   | Simple HTTP (Web) Server        |
 
 
 ## Simple Hello
 A very simple hello program, just like starting out in any programming language. This is your first step into the world of low-level programming. No compilers or fancy libraries but raw instructions, system calls, and a direct conversation with the machine.  
 Skills you'll gain:
--   Basic x86_64 intel syntax structure (`section .data`, `section .text`, etc.)
--   Writing text to the terminal using `syscall`
+-   Basic x86_64 intel syntax structure (section .data, section .text, etc.)
+-   Writing text to the terminal using syscall
 -   Understanding registers like `rax`, `rdi`, `rsi`, and `rdx`
--   Intro to Linux system calls (like `write`)
+-   Intro to Linux system calls (like write)
 -   How memory and code segments are organized in an assembly program
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/simple_hello.asm)
@@ -95,7 +95,7 @@ Skills you'll gain:
 ## Below Or Above
 A simple program that checks if a number entered by the user is below, above, or within a specific range. It's like a mini decision-maker that shows how logic flows in low-level programming.  
 Skills you'll gain:
--   Conditional logic in assembly (cmp, jl, jg, je, jmp, etc.)
+-   Conditional logic in assembly (`cmp`, `jl`, `jg`, `je`, `jmp`, etc.)
 -   User input handling
 -   Number comparison using registers
 -   Using system calls for I/O
@@ -107,7 +107,7 @@ Skills you'll gain:
 A beginner-friendly project that takes two numbers, adds them together, and shows the result. This helps you understand how math works at the register level.  
 Skills you'll gain:
 -   Register manipulation
--   Arithmetic operations (add, mov)
+-   Arithmetic operations (`add`, `mov`)
 -   Handling user input for numbers
 -   Converting ascii strings to integers and vice versa
 -   Printing results to stdout
@@ -119,7 +119,7 @@ Reads a user’s input from the terminal and echoes it back. It’s the foundati
 Skills you'll gain:
 -   Reading input from stdin
 -   Writing output to stdout
--   Using `syscall` for I/O
+-   Using syscall for I/O
 -   Working with memory buffers
 -   String handling basics
 
@@ -140,7 +140,7 @@ Skills you'll gain:
 A program that asks the user for a number and determines whether it’s prime or not. Instead of relying on shortcuts, it manually calculates the number to check for factors. Straightforward but powerful for learning loops and conditional jumps in assembly.  
 Skills you'll gain:  
 - Handling user input and converting it into integers
-- Implementing division in assembly (div)
+- Implementing division in assembly (`div`)
 - Looping through potential factors
 - Using conditional jumps for decision-making
 - Applying mathematical logic at the register level
@@ -159,9 +159,9 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/bit_shifter.asm)
 
 ## Read File
-This program reads content from a `.txt` file and prints it to the terminal. It shows how to interact with files on your system through system calls.  
+This program reads content from a .txt file and prints it to the terminal. It shows how to interact with files on your system through system calls.  
 Skills you'll gain:
--   File handling using system calls (`open`, `read`, `close`)
+-   File handling using system calls (open, read, close)
 -   Using file descriptors
 -   Buffer management
 -   Error checking in system-level code
@@ -170,9 +170,9 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/read_file.asm)
 
 ## Write File
-This program writes contents to a `.txt` file. It overwrite the file or create one if not existed. It also shows how to interact with files on your system through system calls.  
+This program writes contents to a .txt file. It overwrite the file or create one if not existed. It also shows how to interact with files on your system through system calls.  
 Skills you'll gain:
--   File handling using system calls (`write`,`open`,`close`)
+-   File handling using system calls (write, open, close)
 -   Using different syscall flags
 -   Create and overwriting the file
 -   Error checking in system-level code
@@ -181,7 +181,7 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/write_file.asm)
 
 ## Delete File
-This program deletes a `.txt` file. It deletes a file using the unlink() system call and removing the file’s link to its inode.  
+This program deletes a .txt file. It deletes a file using the unlink() system call and removing the file’s link to its inode.  
 Skills you'll gain:  
 - Using the sys_unlink system call to remove files
 - Understanding inodes and how file paths map to them
@@ -192,9 +192,9 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/delete_file.asm)
 
 ## Clone File
-This program clones a text file, reading its contents and writing them into a new file. A low-level version of “copy & paste,” where you have to handle every byte yourself.  
+This program clones a .txt file, reading its contents and writing them into a new file. A low-level version of “copy & paste,” where you have to handle every byte yourself.  
 Skills you'll gain:
-- Reading files using sys_open and sys_read
+- Reading files using `sys_open` and `sys_read`
 - Creating and writing to new files with sys_write
 - Managing file descriptors properly
 - Handling buffers and transferring data between files
@@ -231,12 +231,12 @@ Skills you'll gain:
 - Countdown logic and looping in assembly
 - Converting user input (strings) to integers
 - Printing the loop output to the terminal
-- Structuring and managing time with `timespec` in memory
+- Structuring and managing time with timespec in memory
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/timer.asm)
 
 ## Server
-A basic TCP server that listens on a port and handles simple incoming connections. Writing a server in assembly is easier than you think!  
+A basic TCP server that listens on a port and handles simple incoming connections. Writing a server in assembly is not as hard as you think!  
 Skills you'll gain:
 -   Socket creation with `sys_socket`
 -   Binding and listening on a port
@@ -247,7 +247,7 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/server.asm)
 
 ## Client
-A TCP client that connects to a server and sends a message. Complements the server project and completes the full communication loop. (Super easy!)  
+A TCP client that connects to a server and sends a message. Complements the server project and completes the full communication loop.   
 Skills you'll gain:
 -   Creating and connecting a socket
 -   Sending and receiving messages
@@ -258,7 +258,7 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/client.asm)
 
 ## Web Scraper
-A low-level web scraper built without high-level languages or libraries, just pure assembly and system calls. It connects to a website, sends an HTTP request, and reads the response directly from the socket. It’s a deeper dive into networking, protocols, and memory handling.  
+A low-level web scraper built without high-level languages or libraries, just pure assembly and system calls. It connects to a website, sends an HTTP request, and reads the response directly from the socket.  
 Skills you'll gain:
 -   Working with TCP sockets in assembly (socket, connect, send, recv)
 -   Using stack and struct
@@ -267,6 +267,17 @@ Skills you'll gain:
 -   Understanding network protocols (IP, TCP, HTTP) at a low level
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/web_scraper.asm)
+
+## HTTP Server
+A HTTP server with raw syscalls and structs. It listens for incoming connections, parses basic HTTP requests, and sends back responses directly from memory. This shows how servers really work under the hood.  
+Skills you'll gain:
+- Creating and managing sockets using socket, bind, listen, and accept syscalls
+- Building and using C-style structs in assembly (like `sockaddr_in`)
+- Parsing raw HTTP GET requests manually
+- Crafting and sending valid HTTP responses (status line, headers, body)
+- Managing memory buffers and handling binary/text data
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/http_server.asm)
 
 ## References
 
