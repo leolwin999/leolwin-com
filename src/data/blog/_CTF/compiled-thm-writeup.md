@@ -3,7 +3,7 @@ title: Compiled THM Write Up
 author: Leo Lwin
 pubDatetime: 2025-06-25T07:19:59.266Z
 slug: compiled-thm-writeup
-featured: true
+featured: false
 draft: false
 tags:
   - tryhackme

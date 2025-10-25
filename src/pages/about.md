@@ -11,11 +11,21 @@ I started this blog to share my experiences and knowledge, also as a way to trac
   
 Being a seafarer isn’t as easy as it sounds, but I do this to pay the bills, and take care of the people I love, especially my big mama (my grandma 👵🏼) .  
   
-Plus, I’m not a professional but a skid.  
+Plus, I’m not a professional but just a skid.  
   
 Thanks for stopping by. Hope you find something helpful while you're here. 🤗  
   
+## Certs
 
+- Certified In Cybersecurity by (ISC)2  
+Nov. 2023  
+  
+- Jr Penetration Testing by Try Hack Me  
+Dec. 2023  
+  
+- API Penetration Testing by APISec University  
+Apr. 2024  
+  
 ## Education
 
 Finished high school in 2020 🎓  
