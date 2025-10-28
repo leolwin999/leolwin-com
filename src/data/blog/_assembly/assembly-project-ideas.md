@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2025-10-12T05:42:55.593Z
+modDatetime: 2025-10-28T17:56:47.395Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -75,6 +75,7 @@ Advance Categories
 
 |Project Title                                 | Short Description               |
 |----------------------------------------------|---------------------------------|
+|[Shellcode](#shellcode)                       | Simple shellcode                |
 |[Server](#server)                             | Basic TCP server                |
 |[Client](#client)                             | Basic TCP client                |
 |[Web Scraper](#web-scraper)                   | Simple Web Scraper              |
@@ -234,6 +235,17 @@ Skills you'll gain:
 - Structuring and managing time with timespec in memory
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/timer.asm)
+
+## Shellcode
+A tiny, focused assembly code that demonstrates how to form a shell. The idea is to write extremely compact code that performs the minimal work to request a new shell process from the kernel.  
+Skills you'll gain:
+- Understand how parameters are passed in registers
+- Writing position-independent assembly and why it matters for tiny payloads
+- Using minimal, efficient instruction sequences to accomplish a task
+- Register and stack management in constrained environments
+- Concepts of process creation and how the kernel interprets syscall requests.
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/shellcode.asm)
 
 ## Server
 A basic TCP server that listens on a port and handles simple incoming connections. Writing a server in assembly is not as hard as you think!  
