@@ -37,9 +37,10 @@ Let’s say you’re writing a function, and before calling another one, you sto
 That register is **caller-saved**, the function you're calling is _allowed_ to overwrite it. So it’s **your job** (the caller) to back it up **before the call**, and restore it **after**.  
 For **callee-saved** registers, the function being called must **save them at the start** and **restore them at the end**, if it decides to use them. You don't specifically need to back it up, the function will do it :)
 
-## Confused? It's Analogy Time!
+## Confused?
 
-_A Simple Analogy: A Phone Call_  
+_A Simple Analogy: A Phone Call_ (Credit to Gemini for this!)  
+  
 Imagine you need to ask your friend (a math whiz) to solve a problem.
 - You pick up the phone and dial his number. **You are the CALLER.**
 - Your friend answers the phone. **He is the CALLEE.**  
@@ -53,11 +54,11 @@ Let's apply the register-saving rules to this analogy:
 Suppose you’re doing this in assembly:
 
 ```
-mov rsi, 0xy0u        ; storing an important value in rsi
+mov rsi, 0xdad        ; storing an important value in rsi
 
 call some_function    ; this might overwrite rsi!
 
-; Ugh! rsi now holds something else...
+; Now rsi holds something else...
 ```
 
 Because `rsi` is a **caller-saved** register, `some_function` can overwrite it.  
@@ -68,7 +69,7 @@ If you don’t back it up, your program might **crash**, give **wrong output**, 
 
 Here’s how you’d save & restore a caller-saved register manually:
 ```
-mov rsi, 0xy0u
+mov rsi, 0xdad
 push rsi           ; Save rsi
 call some_function
 pop rsi            ; Restore rsi

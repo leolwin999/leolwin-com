@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 <div>
-  <img src="/dev.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/meme.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
 Hello Again! 👋  

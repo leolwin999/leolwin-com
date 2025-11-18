@@ -2,6 +2,7 @@
 title: THM, HTB VPN Error ဖြေရှင်းနည်း
 author: Leo Lwin
 pubDatetime: 2025-10-24T17:19:56.768Z
+modDatetime: 2025-11-13T13:33:23.236Z
 slug: how-to-solve-vpn-error
 featured: true
 draft: false
@@ -16,8 +17,6 @@ description: ပြည်တွင်းမှာ လက်ရှိအခြေ
 ## Table of Contents
 
 ## THM, HTB OpenVPN error
-
-တော်တော်ဆိုးပါတယ်။  
   
 ကိုယ့် Machine ကိုယ်သုံးရတာ နှစ်သက်တဲ့သူတွေ အတွက်တော့ VPN ချိတ်မရတာက ပြဿနာပါ။  
   
@@ -25,7 +24,7 @@ description: ပြည်တွင်းမှာ လက်ရှိအခြေ
   
 Hack The Box ရဲ့ Pwnbox ဆိုရင်လည်း (၂)နာရီအထိပဲ အခမဲ့သုံးလို့ရတယ်။  
   
-ဒီတော့ OpenVPN ကို သုံးဖို့ လိုအပ်လာပါတယ်။  
+ဒီတော့ OpenVPN ကို သုံးဖို့ လိုအပ်လာတယ်။  
   
 အခုလောလောဆယ် သူ့ချည်းပဲသုံးလို့တော့ မရဘူး။ ပုံကိုကြည့်ပါ။
   
@@ -37,9 +36,9 @@ TLS Handshake fail သွားပါတယ်။
   
 ## Bypass ဖို့ပြင်ဆင်ကြမယ်
   
-VPN တော်တော်များကို Ban ထားတာကတော့ သိပြီးသားဖြစ်မှာပါ။ ဒါပေမယ့် ကျနော်တို့ကို ကူညီပေးမယ့် VPN တစ်ခုတော့ ရှိပါတယ်။  
+VPN တော်တော်များကို Ban ထားတာကတော့ သိပြီးဖြစ်မှာပါ။ ဒါပေမယ့် ကျနော်တို့ကို ကူညီပေးမယ့် VPN တစ်ခုတော့ ရှိတယ်။  
 
-သူ့ကို download ဆွဲကြရအောင်။  
+သူ့ကို download ဆွဲရအောင်။  
   
 ထုံးစံအတိုင်း update၊ upgrade လုပ်ပါမယ်။  
   
@@ -137,8 +136,6 @@ Google ထဲဝင်ပြီး "where am I" လို့ရိုက်ရ�
   
 တစ်ခါတစ်လေ browser ရဲ့ cache တွေကြောင့် location က လက်ရှိနေရာကိုပဲ ပြနေတတ်တယ်။ အဲဒီလိုမျိုးဖြစ်ရင် cache ရှင်းတာမျိုး၊ private or incognito browsing သုံးတာမျိုး လုပ်ကြည့်ပါ။
   
-(ခုနက VPN မှာ Amsterdam ကို ချိတ်ထားတာ မှတ်မိမလားမသိဘူး။ အခု location က Paris ဖြစ်နေတယ်။ အကြောင်းကတော့ ကျနော်တို့ automatically use best connection လုပ်ထားလို့ပါ။)
-  
 အခု Try Hack Me ရဲ့ OpenVPN ကိုစ,စမ်းပါမယ်။  
   
 ![THM VPN test](@/assets/images/VPN_error_thm_test.png)
@@ -149,7 +146,7 @@ Google ထဲဝင်ပြီး "where am I" လို့ရိုက်ရ�
 
 ## Try Hack Me ရဲ့ room တစ်ခုကို စမ်းကြည့်ကြမယ်။  
   
-အရင်အတိုင်းပဲ RiseUp VPN ကိုဖွင့်၊ Use obfs4 bridges ကိုရွေး၊ connect လုပ်လိုက်ပါ။  
+RiseUp VPN ကိုဖွင့်၊ Use obfs4 bridges ကိုရွေး၊ connect လုပ်လိုက်ပါ။  
   
 ပြီးရင် Try Hack Me ရဲ့ OpenVPN ကို ချိတ်ပါ။  
   
@@ -166,6 +163,15 @@ IP ကိုမှတ်ပြီး ping ကြည့်ပါမယ်။ ရ�
 ![IP ping](@/assets/images/VPN_error_ip_ping.png)
   
 ping လို့ရတယ်ဆိုရင်တော့ room တွေကို အရင်အတိုင်း ကိုယ့် machine ကိုယ်သုံးပြီး ဖြေလို့ရပြီ ဖြစ်ပါတယ်။
+  
+ဒါပေမယ့် VPNက တစ်ခါတစ်လေ ချိတ်ဖို့ကြာနေတာ၊ ပြန်ပြုတ်သွားတာမျိုးတွေ ဖြစ်တတ်တယ်။ အဲဒီလို...
+  
+## Error တွေဖြစ်နေခဲ့ရင် (Updated)
+  
+- VPN ပြန်ဖြုတ်ပြီး ပြန်ချိတ်ပါ။ ပြီးရင်ခဏစောင့်ပါ။ တချို့စက်တွေမှာကျ Disconnected ဆိုပေမယ့် တကယ်တမ်းကျ Connecting ဖြစ်နေတာပါ။ စက်တစ်ခုနဲ့တစ်ခုတော့ ကွဲနိုင်ပါတယ်။
+- RiseUp VPN ထဲကထွက်ပြီး ပြန်ဝင်ပါ။
+- စက်ကို reset ပြန်ချကြည့်ပါ။
+- စက်ကို update တင်ပါ။ (sudo apt update && upgrade -y)
 
 ## နောက်ဆုံးအနေနဲ့ကတော့
 
