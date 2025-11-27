@@ -26,6 +26,9 @@ Dec. 2023
 - API Penetration Testing by APISec University  
 Apr. 2024  
   
+- Offensive Pentesting by Try Hack Me  
+Nov. 2025
+  
 ## Education
 
 Finished high school in 2020 🎓  
@@ -77,5 +80,3 @@ Finished high school in 2020 🎓
  
   
   
-  
-Kudos to [Sat Naing](https://satnaing.dev/) , creator of the template I used to build this site!
