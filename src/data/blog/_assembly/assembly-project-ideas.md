@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2025-11-27T15:41:17.548Z
+modDatetime: 2026-01-09T15:51:36.890Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -80,6 +80,7 @@ Advance Categories
 |[Client](#client)                             | Basic TCP client                |
 |[Web Scraper](#web-scraper)                   | Simple Web Scraper              |
 |[HTTP Server](#http-server)                   | Simple HTTP (Web) Server        |
+|[Monitor](#monitor)                           | A mimic of 'ps -aux'            |
 
 
 ## Simple Hello
@@ -290,6 +291,17 @@ Skills you'll gain:
 - Managing memory buffers and handling binary/text data
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/http_server.asm)
+
+## Monitor
+A program that uses the `getdents64` system call to iterate through the */proc* filesystem, extracts process IDs, reads each */proc/<PID>/comm* file, and writes active process names to an output file. This project explores how Linux exposes runtime system information through virtual files.  
+Skills you'll gain:
+- Using `getdents64` to read directory entries at the syscall level
+- Understanding the Linux */proc* filesystem and how process metadata is exposed
+- Parsing directory entries and filtering numeric process IDs
+- Reading pseudo-files like */proc/<PID>/comm* safely
+- Writing structured output to files using raw syscalls
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/monitor.asm)
 
 ## References
 
