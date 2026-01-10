@@ -293,12 +293,12 @@ Skills you'll gain:
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/http_server.asm)
 
 ## Monitor
-A program that uses the `getdents64` system call to iterate through the */proc* filesystem, extracts process IDs, reads each */proc/<PID>/comm* file, and writes active process names to an output file. This project explores how Linux exposes runtime system information through virtual files.  
+A program that uses the `getdents64` system call to iterate through the */proc* filesystem, extracts process IDs, reads each */proc/PID/comm* file, and writes active process names to an output file. This project explores how Linux exposes runtime system information through virtual files.  
 Skills you'll gain:
 - Using `getdents64` to read directory entries at the syscall level
 - Understanding the Linux */proc* filesystem and how process metadata is exposed
 - Parsing directory entries and filtering numeric process IDs
-- Reading pseudo-files like */proc/<PID>/comm* safely
+- Reading pseudo-files like */proc/PID/comm* safely
 - Writing structured output to files using raw syscalls
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/monitor.asm)
