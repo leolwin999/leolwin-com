@@ -1,8 +1,8 @@
 export const SITE = {
-  website: "https://leolwin.com/",
+  website: "https://leolwin.com",
   author: "Leo Lwin",
   profile: "",
-  desc: "A seafarer's journey into self-taught tech :)",
+  desc: "Sharing some tech stuff :)",
   title: "Leo Lwin",
   ogImage: "og-leolwin.jpg",
   lightAndDarkMode: true,
@@ -10,10 +10,10 @@ export const SITE = {
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
-  showBackButton: true, 
+  showBackButton: true,
   editPost: {
     enabled: true,
-    text: "Spotted a Mistake?",
+    text: "Spotted a mistake?",
     url: "https://github.com/leolwin999/leolwin-com/edit/main/",
   },
   dynamicOgImage: true,

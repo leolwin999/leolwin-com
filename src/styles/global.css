@@ -5,11 +5,11 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
+  --background: #dadada;
   --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --accent: #006bde;
+  --muted: #9c9c9c;
+  --border: #9a9a9a;
 }
 
 html[data-theme="dark"] {
@@ -48,14 +48,14 @@ html[data-theme="dark"] {
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
-  section,
-  footer {
-    @apply mx-auto max-w-app px-4;
-  }
 }
 
 @utility max-w-app {
   @apply max-w-3xl;
+}
+
+@utility app-layout {
+  @apply mx-auto w-full max-w-app px-4;
 }
 
 .active-nav {

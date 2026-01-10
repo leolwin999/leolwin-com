@@ -2,12 +2,10 @@ import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
-import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
-import { SITE } from "@/config";
 
 interface Social {
   name: string;
@@ -26,7 +24,7 @@ export const SOCIALS: Social[] = [
   {
     name: "Mail",
     href: "mailto:leolwin999@gmail.com",
-    linkTitle: `Send a mail to me!`,
+    linkTitle: `Let's get in touch!`,
     icon: IconMail,
   },
 ] as const;
