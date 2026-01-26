@@ -1,5 +1,5 @@
 ---
-title: Memory Management in Assembly (You're the Boss Now!)
+title: You're the Boss Now! (Memory Management in Assembly)
 author: Leo Lwin
 pubDatetime: 2025-06-04T08:20:57.230Z
 slug: memory-management-in-assembly
@@ -35,6 +35,7 @@ Where your code lives (read-only)
 Initialized variables
 - `.bss`
 Uninitialized variables (get 0 by default)  
+  
   
 **Heap**  
 Grows upward for dynamic memory (malloc)  
@@ -74,10 +75,10 @@ del a
 ```
 Lemon squeezy!  
   
-But in assembly, you have to allocate memory, write to memory and MUST free it all manually.  
+But in assembly, you have to allocate memory, write to memory and **MUST** free it all manually.  
   
 If you fail? Well, prepare to face:  
-- **Memory leaks** (your program slowly eats RAM)
+- **Memory leaks** (program slowly eats RAM)
 - **Garbage values** (leftover junk in memory causing weird bugs)
 - **Segfaults** (accessing stuff you shouldn’t)
 
@@ -102,7 +103,7 @@ In Assembly, it crashes or even worse, **keeps running with corrupted memory** p
 
 Assembly gives you the raw power. It's not just coding. You’re given a fully access to control your whole computer.  
 But that ultimate power comes with responsibility. Memory management is like a double-edged sword. You can build fast, efficient programs as well as can also crash the system, leak memory, or even open up vulnerabilities.  
->That explains why most hackers use assembly language. Its ability to interact directly with computer hardware and allows fully control over system resources is crucial for tasks where higher-level languages are insufficient and inefficient.  
+>That explains why most hackers use assembly language. Its ability to interact directly with computer hardware and fully control over system resources is crucial for tasks where higher-level languages are insufficient and inefficient.  
   
 So be careful (and proud) because you’re now literally the garbage collector :) 
 
@@ -118,7 +119,8 @@ So be careful (and proud) because you’re now literally the garbage collector :
 
 ## Outro
 
-Memory management in Assembly is indeed energy draining but man, it's crazy cool. You understand how the system really works!  
+Memory management in Assembly is indeed energy draining but it's crazy cool. You understand how the system really works!  
+  
 You’ll learn how stacks grow, how pointers behave, how programs crash and also how to stop them.  
 And whenever you do assembly keep in mind that:  
 
