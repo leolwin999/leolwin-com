@@ -7,7 +7,9 @@ featured: false
 draft: false
 tags:
   - tryhackme
+  - Ghidra
   - CTF
+  - write-up
   - tech
   - English
 description: Walkthrough of the TryHackMe's room - Compiled

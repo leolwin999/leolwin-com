@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - pokemon
+  - tech
   - reversing
   - game
   - English
