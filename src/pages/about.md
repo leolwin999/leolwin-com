@@ -29,6 +29,9 @@ Apr. 2024
 - Offensive Pentesting by Try Hack Me  
 Nov. 2025
   
+- Red Teaming by Try Hack Me  
+Feb. 2026
+  
 ## Education
 
 Finished high school in 2020 🎓  
