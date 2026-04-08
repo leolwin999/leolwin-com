@@ -58,6 +58,7 @@ export default defineConfig({
     },
   },
   experimental: {
-    preserveScriptOrder: true,
+        // enable experimental flags
+        // to try out new features
   },
 });
