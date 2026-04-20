@@ -2,7 +2,7 @@
 title: Assembly Project Ideas
 author: Leo Lwin
 pubDatetime: 2025-04-22T08:54:04.346Z
-modDatetime: 2026-01-09T15:51:36.890Z
+modDatetime: 2026-04-20T05:28:22.737Z
 slug: assembly-project-ideas
 featured: true
 draft: false
@@ -60,6 +60,7 @@ Easy Categories
 |[Below Or Above](#below-or-above)             | Checking a specific number      |
 |[Addition](#addition)                         | Adding two numbers              |
 |[Input Output](#input-output)                 | Read the text and write out     |
+|[Loop](#loop)                                 | Loop from 0 to 10               | 
 |[Password Checker](#password-checker)         | Checking user's input password  |
 |[Prime Checker](#prime-checker)               | Checking if prime number or not |
 |[Bit Shifter](#bit-shifter)                   | Shifting each bit to left       |
@@ -126,6 +127,17 @@ Skills you'll gain:
 -   String handling basics
 
 > Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/input_output.asm)
+
+## Loop
+Loops from 0 to 10 and prints each number to the terminal, converts integers into their ASCII representation before displaying them.  
+Skills you'll gain:
+- Creating loops using registers and conditional jumps
+- Understanding how integers differ from ASCII characters
+- Converting integers to ASCII manually (+ '0' concept)
+- Using registers as counters
+- Printing dynamic values using sys_write
+
+> Fetch the code [here!](https://github.com/leolwin999/Assembly-Projects/blob/main/Assembly_Files/loop.asm)
 
 ## Password Checker
 A lightweight password-checking program that compares user input with a stored password byte by byte using the powerful `repe cmpsb` instruction. If the input matches, access is granted; if not, it’s denied.  
