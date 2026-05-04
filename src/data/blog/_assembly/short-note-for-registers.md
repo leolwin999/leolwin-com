@@ -9,7 +9,7 @@ tags:
   - assembly
   - tech
   - English
-description: TL;DR about registers for you
+description: TL;DR about registers
 ---
 
 ## Table Of Contents

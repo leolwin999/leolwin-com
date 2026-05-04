@@ -1,5 +1,5 @@
 ---
-title: You're the Boss Now! (Memory Management in Assembly)
+title: Memory Management in Assembly
 author: Leo Lwin
 pubDatetime: 2025-06-04T08:20:57.230Z
 slug: memory-management-in-assembly
