@@ -1,0 +1,77 @@
+---
+title: "About"
+description: "A bit about me and this blog."
+---
+
+![Astro Paper](@/assets/images/astropaper-og.jpg)
+
+Hello Again! 👋  
+I started this blog to share my experiences and knowledge, also as a way to track my own learnings and force myself to breakdown the complex topics.  
+  
+Being a seafarer isn’t as easy as it sounds, but I do this to pay the bills, and take care of the people I love, especially my big mama (my grandma 👵🏼) .  
+  
+Plus, I’m not a professional, just a skid.  
+  
+Thanks for stopping by. Hope you find something helpful while you're here. 🤗  
+  
+## Certs
+
+- Certified In Cybersecurity by (ISC)2  
+Nov. 2023  
+  
+- Jr Penetration Testing by Try Hack Me  
+Dec. 2023  
+  
+- API Penetration Testing by APISec University  
+Apr. 2024  
+  
+- Offensive Pentesting by Try Hack Me  
+Nov. 2025
+  
+- Red Teaming by Try Hack Me  
+Feb. 2026
+  
+## Education
+
+Finished high school in 2020 🎓  
+  
+## Languages
+
+- Mandarin Chinese (HSK 5)
+- English
+  
+## Projects
+  
+[Assembly-Projects](https://github.com/leolwin999/Assembly-Projects)
+  
+## Skills
+
+### Low-Level
+
+- C & Assembly (x86_64 | ARM)
+- Binary Patching & Debuggers (Ghidra | GDB | Radare2)
+
+### Scripting
+
+- Python
+- Bash
+
+### Infrastructure
+
+- Cloud Providers (AWS)
+- Hypervisors (Virtual Box)
+
+### Networking
+
+- IP Masking (Proxies | Tor | VPN)
+- Network Engineering (Routing | Switching | VLANs)
+- Protocol Analysis (Wireshark)
+
+### Operating Systems
+
+- Server Operating Systems (Ubuntu Linux)
+- Desktop Operating Systems (Linux | Windows)
+
+## Profile
+
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2324754" style='border:none;'></iframe>   
