@@ -3,7 +3,7 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+![Profile](@/assets/images/astropaper-og.jpg)
 
 Hello Again! 👋  
 I started this blog to share my experiences and knowledge, also as a way to track my own learnings and force myself to breakdown the complex topics.  
