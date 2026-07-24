@@ -4,7 +4,7 @@ author: Leo Lwin
 pubDatetime: 2025-10-24T17:19:56.768Z
 modDatetime: 2025-11-13T13:33:23.236Z
 slug: how-to-solve-vpn-error
-featured: true
+featured: false
 draft: false
 tags:
   - general

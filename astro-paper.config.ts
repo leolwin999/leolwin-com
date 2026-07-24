@@ -7,7 +7,7 @@ export default defineAstroPaperConfig({
     description: "My portfolio and blogs",
     author: "Leo Lwin",
     profile: "",
-    ogImage: "default-og.jpg",
+    ogImage: "og-leolwin.jpg",
     lang: "en",
     timezone: "Asia/Yangon",
     dir: "ltr",
