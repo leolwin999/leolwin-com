@@ -10,7 +10,7 @@ If you spot something outdated or want to suggest a fix, feel free to open a Pul
 ## 🌐 Live Site
 
 You can check out the blog at:  
-[https://leolwin.com](https://leolwin.com)
+[https://leolwin.netlify.app](https://leolwin.netlify.app)
 
 
 ## 📜 License

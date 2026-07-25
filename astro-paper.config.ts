@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://leolwin.com",
+    url: "https://leolwin.netlify.app",
     title: "Leo Lwin",
     description: "My portfolio and blogs",
     author: "Leo Lwin",
